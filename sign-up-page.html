@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css files/signup.css">
+        <title>sign-up-page</title>
+
+        <script defer src="index.js" type="module"></script>
+    </head>
+
+    <body > 
+        <div class="sign-up-container">
+            <form id="form" action="/">
+                <div><h2>Sign up</h2></div>
+
+                <div class="box">
+                    <label for="firstName">First Name:</label>
+                    <input id="firstName" name="firstName" type="text"/>
+                    <div class="error"></div>
+                </div>
+    
+                <div class="box">
+                    <label for="username">Username:</label>
+                    <input id="username" name="username" type="text"/>
+                    <div class="error"></div>
+                </div>
+    
+                <div class="box">
+                    <label for="email" >Email:</label>
+                    <input id="email" name="email" type="text"/>
+                    <div class="error"></div>
+                </div>
+    
+                <div class="box">
+                    <label for="password">Password:</label>
+                    <input id="password" name="password" type="password"/>
+                    <div class="error"></div>
+                </div>
+                
+                <button class="js-signup-button">Sign Up</button>
+    
+    
+    
+                <div class="last-line">Already have an account? <a href="loginpage.html">Login here.</a></div>
+            </form>
+            <div class="welcome-area"></div>
+        </div>
+        
+    </body>
+</html>
